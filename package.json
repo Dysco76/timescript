@@ -7,6 +7,7 @@
     "url": "https://github.com/Dysco76/timescript.git"
   },
   "type": "module",
+  "types": "./dist/@types",
   "scripts": {
     "dev": "tsx watch ./src/index.ts",
     "build": "rimraf dist && tsc",
