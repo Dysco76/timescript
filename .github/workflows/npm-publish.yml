@@ -7,7 +7,7 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - main
+      - master
 
 jobs:
        # A second CI cycle on merge to ensure code (including other PRs) 
