@@ -1,6 +1,6 @@
 {
   "name": "@dysco76/timescript",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "build": "rimraf dist && tsc",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "lint": "eslint ./src/**" 
+    "lint": "eslint ./src/**"
   },
   "keywords": [],
   "author": "",
