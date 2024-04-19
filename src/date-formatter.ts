@@ -11,6 +11,7 @@ export function formatDate (format: string, date: Date = new Date()): string {
 
   // Replace format string with actual date parts
   return format.replace(/YYYY|YY|MMM|MM|DD|D/g, (match) => {
+    console.log('test')
     switch (match) {
       case 'YY':
         return date.getFullYear().toString().slice(-2)
